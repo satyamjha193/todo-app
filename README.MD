@@ -1,17 +1,27 @@
 # 📝 Task Manager Web App
 
-A modern, responsive web-based Task Manager that helps you manage daily tasks with features like dynamic task injection, real-time search, and a collapsible sidebar.
+A modern, responsive web-based To-Do List App that helps users manage tasks efficiently with dynamic name greetings, real-time updates, and a clean UI experience.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- 🔍 **Search Tasks** in real-time with instant feedback
-- 📅 **Date Highlight** with today’s date display
-- 📌 **Inject Tasks Dynamically** from `localStorage`
-- 📁 **Responsive Sidebar** with Hamburger toggle
-- 💡 **Minimal & Clean UI** with modern CSS cards
-- ⚙️ **LocalStorage** support to persist tasks
+👉 [Click to View Live](https://satyamjha193.github.io/todo-app/)
+
+> Hosted using GitHub Pages
+
+---
+
+## ✨ Features
+
+- 👤 **User Name Input** → Greeted dynamically on dashboard
+- 🧠 **Dynamic Task Management** using `localStorage`
+- 🔍 **Real-Time Task Search**
+- ✅ **Task Completion & Separation**
+- 📅 **Current Date Highlight**
+- 📁 **Collapsible Sidebar with Profile & Navigation**
+- 💡 **Modern Responsive UI**
+- 💾 **Persistent Storage via LocalStorage**
 
 ---
 
@@ -19,56 +29,56 @@ A modern, responsive web-based Task Manager that helps you manage daily tasks wi
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
-- **Font Awesome** for icons
-- **LocalStorage** for persistence
+- **Vanilla JavaScript**
+- **Font Awesome Icons**
+- **Google Fonts**
+- **LocalStorage**
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
-project-folder/
-│
-├── index.html
-├── styles.css
-├── index.js
-├── not-available.html
-└── README.md
+todo-app/
+├── index.html # Main Dashboard
+├── todo_login.html # Welcome page with name input
+├── index.js # JS logic
+├── index.css # Styling
+├── not-available.html # Placeholder for nav links
+├── README.md # This file
+
 
 
 ---
 
 ## 🧠 How It Works
 
-1. Tasks are stored in `localStorage` under the key `tasks`.
-2. On page load, tasks are dynamically rendered as styled cards.
-3. The search input filters tasks live, showing a fallback message if none match.
-4. Sidebar toggles visibility with the hamburger icon.
-5. Profile image and other UI elements adjust based on screen size.
+1. User visits `todo_login.html` and enters their name
+2. Name is stored in `localStorage` and shown in `index.html`
+3. Tasks are added, completed, and deleted — all stored in `localStorage`
+4. Sidebar navigation and search allow for quick task handling
 
 ---
 
 ## 📸 Screenshots
 
-> _Coming Soon — add screenshots of your UI here._
+> 📸 _Coming soon — add your UI screenshots here_
+> Place them in an `assets/` folder and embed with markdown like:
+> `![Screenshot](assets/dashboard.png)`
 
 ---
 
-## ✅ Todo / Improvements
+## ✅ Improvements / Todo
 
-- [ ] Add task creation UI
-- [ ] Add delete/edit functionality
-- [ ] Add tags/priority
-- [ ] Sync with cloud (optional)
+- [ ] Add edit task functionality
+- [ ] Add priority filters or tags
+- [ ] Add export/import feature
+- [ ] Add animations for interactions
 
 ---
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
-**Satyam Jha**
+**Satyam Jha**  
+GitHub: [@satyamjha193](https://github.com/satyamjha193)
 
-> Feel free to fork, clone, or contribute!
-
-
-
-
+> Feel free to fork, contribute, or share feedback!
