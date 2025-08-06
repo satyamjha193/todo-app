@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not Available</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'SF Pro Display', 'Segoe UI', sans-serif;
+      background: linear-gradient(145deg, #f7f9fb, #e4eaf1);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+    }
+
+    .container {
+      padding: 40px;
+      max-width: 420px;
+      width: 90%;
+     
+      border-radius: 16px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(-5px);
+    }
+
+    .emoji {
+      font-size: 64px;
+      margin-bottom: 20px;
+      animation: bounce 1.5s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #1a202c;
+    }
+
+    p {
+      font-size: 16px;
+      color: #5a5a5a;
+      margin-bottom: 25px;
+    }
+
+    a.back-home {
+      text-decoration: none;
+      padding: 12px 24px;
+      background: #1e40af;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background 0.3s ease;
+      display: inline-block;
+    }
+
+    a.back-home:hover {
+      background: #1c3ea0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="emoji">🚧</div>
+    <h1>Page Not Available</h1>
+    <p>This section is currently under construction or unavailable.</p>
+    <a href="/elevateMax-Task-2/index.html" class="back-home">← Go Back Home</a>
+  </div>
+
+</body>
+</html>
